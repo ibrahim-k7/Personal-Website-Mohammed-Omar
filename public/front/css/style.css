@@ -1,0 +1,166 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.mainColor{
+   background-color: #c4cfd4 !important;
+}
+
+/* For container */
+.image-container {
+   position: relative;
+   max-width: 100%;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+/* Set the image to fill its container width while maintaining its aspect ratio */
+.image-container img {
+   width: 100%;
+   height: auto;
+}
+
+#image_card {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: calc(70% - 80px);
+   background-color: rgba(0, 0, 0, 0);
+
+}
+
+.row__card {
+   display: flex;
+}
+
+.info__img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+}
+
+.info__text {
+   width: 40%;
+   padding: 10px;
+}
+
+.owl-carousel .owl-stage {
+   display: flex;
+   align-items: center;
+}
+
+.owl-nav button {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+
+
+
+
+
+}
+
+
+
+
+.owl-prev {
+   right: -40px;
+}
+
+.owl-next {
+   left: -40px;
+}
+
+.design{
+   background-color: #D9D9D9;
+   border: 1px solid black;
+   border-radius: 5px; 
+}
+
+
+.card.success_partners {
+   background-color: #c4cfd4;
+   border: 0;
+}
+
+.btn.book_now {
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+.btn.send{
+   background-color: #D9D9D9;
+   border: 1px solid black;
+   border-radius: 10px; 
+}
+
+
+.list-group-item.courses {
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+
+
+.list-group-item.success_partners {
+   background-color: #D9D9D9;
+   border: 1px solid black !important;
+   border-radius: 5px !important;
+}
+
+.form-control {
+   background-color: #D9D9D9;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.success_partners_img_pg{
+   width: 50%;
+}
+
+.owl-carousel.my-message{
+   width: 40%;
+}
+
+.copyright-year-span{
+   color: #6B518B;
+}
+
+/* for mobile devices */
+@media screen and (max-width: 718px) {
+
+   .image-container,
+   .image-container>img:first-child {
+      height: 400px !important;
+   }
+
+   #image_card {
+      display: flex;
+      height: auto;
+      
+   }
+
+   .row__card {
+      flex-direction: column;
+   }
+
+   .info__img,
+   .info__text {
+      width: 100%;
+   }
+
+   .success_partners_img_pg{
+      width: 100%;
+   }
+
+   .owl-carousel.my-message{
+      width: 100%;
+   }
+
+
+
+}

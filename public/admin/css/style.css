@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mainColor{
+    background-color: #c4cfd4 !important;
+ }
+
+.card.add {
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.card.index {
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form-control.add {
+    background-color: #C8C1CD;
+}
+
+.btn.add {
+    background-color: #724ba1c0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn.update {
+    background-color: #6c4996c0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn.delete {
+    background-color: #de5d66b4;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.row.contentCenter{
+    display: flex;
+    align-items: center;
+}
+
+.showw{
+    background-color: #C8C1CD;  border: 1px solid black ; border-radius: 10px;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+ }
+
+
+/* for mobile devices */
+@media screen and (max-width: 718px) {
+
+    .card.add {
+        width: 100%;
+    }
+
+
+}
